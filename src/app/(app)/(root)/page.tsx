@@ -15,7 +15,7 @@ import { ProfileHeader } from "@/features/portfolio/components/profile-header";
 import { Projects } from "@/features/portfolio/components/projects";
 import { SocialLinks } from "@/features/portfolio/components/social-links";
 import { TeckStack } from "@/features/portfolio/components/teck-stack";
-import { TestimonialsMarquee } from "@/features/portfolio/components/testimonials-marquee";
+// import { TestimonialsMarquee } from "@/features/portfolio/components/testimonials-marquee";
 import { USER } from "@/features/portfolio/data/user";
 import { cn } from "@/lib/utils";
 
@@ -43,8 +43,8 @@ export default function Page() {
         <About />
         <Separator />
 
-        <TestimonialsMarquee />
-        <Separator />
+        {/* <TestimonialsMarquee /> */}
+        {/* <Separator /> */}
 
         <GitHubContributions />
         <Separator />
@@ -52,29 +52,29 @@ export default function Page() {
         <TeckStack />
         <Separator />
 
-        <Components />
-        <Separator />
+        {/* <Components /> */}
+        {/* <Separator /> */}
 
-        <Blog />
-        <Separator />
+        {/* <Blog /> */}
+        {/* <Separator /> */}
 
-        <Experiences />
-        <Separator />
+        {/* <Experiences /> */}
+        {/* <Separator /> */}
 
-        <Projects />
-        <Separator />
+        {/* <Projects /> */}
+        {/* <Separator /> */}
 
-        <Awards />
-        <Separator />
+        {/* <Awards /> */}
+        {/* <Separator /> */}
 
-        <Certifications />
-        <Separator />
+        {/* <Certifications /> */}
+        {/* <Separator /> */}
 
-        <Bookmarks />
-        <Separator />
+        {/* <Bookmarks /> */}
+        {/* <Separator /> */}
 
-        <Brand />
-        <Separator />
+        {/* <Brand /> */}
+        {/* <Separator /> */}
       </div>
     </>
   );

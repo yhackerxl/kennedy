@@ -1,34 +1,34 @@
 import type { User } from "@/features/portfolio/types/user";
 
 export const USER = {
-  firstName: "Chánh Đại",
-  lastName: "Nguyễn",
-  displayName: "Chánh Đại",
-  username: "ncdai",
+  firstName: "Kennedy",
+  lastName: "Nnko",
+  displayName: "Kennedy nnko",
+  username: "yhackerxl",
   gender: "male",
   pronouns: "he/him",
   bio: "Creating with code. Small details matter.",
   flipSentences: [
-    "Creating with code. Small details matter.",
-    "Design Engineer",
-    "Open Source Contributor",
+    "Computer Repair",
+    "Hardware & Software Troubleshooting",
+    "Full Stack Web developer",
   ],
-  address: "Ho Chi Minh City, Viet Nam",
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded
-  website: "https://chanhdai.com",
-  jobTitle: "Design Engineer",
+  address: "Arusha ,Tanzania",
+  phoneNumber: "KzI1NTc1Mjk5NDM4MQ==", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
+  email: "a2VubmVkeW5ua29AZ21haWwuY29t", // base64 encoded
+  website: "https://kennedynnko.com",
+  jobTitle: "Full Stuck web Developer",
   jobs: [
     {
       title: "Senior Frontend Developer & UI Lead",
-      company: "Simplamo",
-      website: "https://simplamo.com?ref=IN-926722",
+      company: "Teksafari",
+      website: "https://teksafari.org",
     },
-    {
-      title: "Founder",
-      company: "Quaric",
-      website: "https://quaric.com",
-    },
+    // {
+    //   title: "Founder",
+    //   company: "Quaric",
+    //   website: "https://quaric.com",
+    // },
   ],
   //   about: `
   // Hello, World! I am Chánh Đại — a Design Engineer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
@@ -41,33 +41,37 @@ export const USER = {
 
   // Let's connect and collaborate!
   //   `,
+  //
   about: `
-- **Design Engineer** with 5+ years of experience, known for pixel-perfect execution and strong attention to small details.
-- Skilled in **Next.js**, **React**, **TypeScript**, and modern front-end technologies; building high-quality, user-centric web and mobile applications.
-- Passionate about exploring new technologies and turning ideas into reality through polished, thoughtfully crafted personal projects.
-- Creator of [ZaDark](https://zadark.com) (2022): enhances the Zalo experience on PC & Web
-  - 80k+ downloads on [SourceForge](https://sourceforge.net/projects/zadark)
-  - 30k+ active users on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob)
-- Creator of [React Wheel Picker](https://react-wheel-picker.chanhdai.com): iOS-like wheel picker with inertia scrolling & infinite loop
-  - 10k+ weekly downloads on [npm](https://www.npmjs.com/package/@ncdai/react-wheel-picker)
-  - [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort
+- **Technology Enthusiast & Software Developer** with hands-on experience in real-world problem solving and digital innovation.
+- Skilled in **Web Development**, **Computer Repair**, **Phone Flashing & Unlocking**, **Hardware & Software Troubleshooting**, and **Graphic Design**.
+- Experienced with **Next.js**, **React**, **TypeScript**, **HTML**, **CSS**, and modern development tools; focused on building functional, user-centered solutions.
+- Founder of **VOTEC (Voice of Technology)**: providing tech services including device repairs, system installations, software solutions, and digital design.
+- Passionate about learning, mentoring, and using technology to empower society; driven to become a producer, not just a consumer, of technology.
+- Actively exploring **software development**, **automation**, and **emerging technologies** to create impactful personal and community-based projects.
 `,
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
-  ogImage:
-    "https://assets.chanhdai.com/images/screenshot-og-image-light.png?v=4",
+  avatar: "/audio/kenny.webp",
+  ogImage: "/audio/kenny.webp",
+
   namePronunciationUrl: "/audio/chanhdai.mp3",
-  timeZone: "Asia/Ho_Chi_Minh",
+  timeZone: "Africa/Dar_es_Salaam",
   keywords: [
-    "ncdai",
-    "nguyenchanhdai",
-    "nguyen chanh dai",
-    "chanhdai",
-    "chanh dai",
-    "iamncdai",
-    "quaric",
-    "zadark",
-    "nguyễn chánh đại",
-    "chánh đại",
+    "kennedy pandele",
+    "kennedy nnko",
+    "kenny",
+    "vp creations",
+    "vl creations",
+    "votec",
+    "voice of technology",
+    "software developer tanzania",
+    "web developer tanzania",
+    "tech innovator",
+    "computer repair expert",
+    "phone flashing and unlocking",
+    "graphic designer",
+    "it support specialist",
+    "technology mentor",
   ],
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+
+  dateCreated: "2025-12-31", // YYYY-MM-DD
 } satisfies User;
